@@ -1,0 +1,24 @@
+{
+  "name": "amazona",
+  "version": "1.0.0",
+  "description": "ShopME e-commerce",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start-server": "nodemon --watch backend --exec node backend/server.js"
+  },
+  "keywords": [
+    "shopping",
+    "ecommerce",
+    "shopme",
+    "amazona"
+  ],
+  "author": "imnikhil",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.13"
+  }
+}
